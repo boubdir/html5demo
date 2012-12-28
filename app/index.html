@@ -11,16 +11,33 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-
-        <link rel="stylesheet" href="styles/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Wendy+One|Great+Vibes' rel='stylesheet' type='text/css'>
+        <link href="styles/main.css" rel='stylesheet' type='text/css'>
         <script src="scripts/vendor/modernizr.min.js"></script>
     </head>
     <body>
-
         <!-- Add your site or application content here -->
+        <div class="message">
+            <h1 class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+            <h2 class="lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque soluta eum quisquam sapiente praesentium quo quae voluptatem provident temporibus repellat inventore at ratione velit distinctio impedit rem necessitatibus. Maiores fugit.</h2>
+        </div>
+
+        <div class="pattern-overlay"></div>
+
+        <div class="background">
+            <video class="background" loop autoplay>
+                <source src="media/video/beyond.webm" type="video/webm">
+                <source src="media/video/beyond.mp4" type="video/mp4">
+            </video>
+            <audio loop autoplay>
+                <source src="media/audio/beyond.mp3" type="audio/mp3">
+                <source src="media/audio/beyond.ogg" type="audio/ogg">
+            </audio>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+
+        <script src="scripts/main.js"></script>
     </body>
 </html>
