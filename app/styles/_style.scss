@@ -1,0 +1,46 @@
+html, body, .background {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	z-index: 0;
+	background-color: rgb(229, 227, 223);
+    // -webkit-transform: translateZ(0);
+	// -webkit-filter: blur(3px);
+}
+
+.pattern-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-image: url(../images/grid.png);
+	// background-image: url(../images/glyphicons-halflings.png);
+}
+
+.lorem {
+	font-family: "Wendy One";
+	font-size: 72px;
+	color: #fff;
+}
+
+.lorem2 {
+	font-family: "Great Vibes";
+	font-size: 24;
+	color: #fff;
+}
+
+.message {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
